@@ -289,6 +289,7 @@ async def cbskip(_, query: CallbackQuery):
 
 # ban & unban function
 
+
 @Client.on_message(filters.command("b", COMMAND_PREFIXES))
 @authorized_users_only
 async def ban_user(_, message):
